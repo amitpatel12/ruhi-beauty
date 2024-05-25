@@ -2,7 +2,7 @@
 
 const express = require("express");
 const router = express.Router();
-const Form = require("../schema/registrationSchema.js");
+const Form = require("../schema/registrationSchema");
 const nodemailer = require("nodemailer");
 require("dotenv").config();
 
