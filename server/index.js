@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cors());
 
-require("./db/config.js");
+require("./db/config");
 
 app.use("/", form);
 app.listen(PORT, () => console.log("Be started"));
